@@ -9,7 +9,7 @@ import { Button } from "../components/Button";
 
 export function SignIn() {
   const [email, setEmail] = useState("");
-  const [paswword, setPassword] = useState("");
+  const [password, setPassword] = useState("");
 
   const { colors } = useTheme();
 
